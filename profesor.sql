@@ -28,3 +28,6 @@ select  p.nombre_profesor, p.apellido_profesor from profesor p where p.nombre_pr
 delete from profesor where id_profesor=3;
 
 select * from profesor p;
+
+-- solo lectura permite cambiar el nombre de la columna
+alter table profesor rename column nombre_profesor to nombres;
