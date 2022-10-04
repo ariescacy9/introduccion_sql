@@ -1,6 +1,6 @@
 # SQL
 
-## se crea la tabla profesor
+## se crea la tabla person
 sus atributos son id, nombre y apellido
 
 - se pone el tipo de dato, si es nulo o no, la clave primaria
