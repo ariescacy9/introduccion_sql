@@ -31,3 +31,8 @@ select * from profesor p;
 
 -- solo lectura permite cambiar el nombre de la columna
 alter table profesor rename column nombre_profesor to nombres;
+
+-- se agrega el atributo edad
+ALTER TABLE profesor ADD edad int;
+--se actuliza la edad del usuario tom
+update profesor set edad=23 where nombres='tom';
